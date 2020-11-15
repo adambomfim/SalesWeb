@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using SalesWebMvcTwo.Models;
+using SalesWebMvcTwo.Models.ViewModels;
 
 namespace SalesWebMvcTwo.Controllers
 {
@@ -25,6 +26,8 @@ namespace SalesWebMvcTwo.Controllers
 
         public IActionResult Privacy()
         {
+            ViewData["email"] = "adambomfim@gmail.com";
+
             return View();
         }
 

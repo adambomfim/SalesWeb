@@ -21,7 +21,7 @@ using SalesWebMvcTwo;
 #nullable disable
 #nullable restore
 #line 2 "C:\Users\adamb\source\repos\SalesWebMvcTwo\SalesWebMvcTwo\Views\_ViewImports.cshtml"
-using SalesWebMvcTwo.Models;
+using SalesWebMvcTwo.Models.ViewModels;
 
 #line default
 #line hidden
